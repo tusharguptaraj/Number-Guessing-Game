@@ -4,7 +4,7 @@ FROM tomcat:9.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy WAR file into Tomcat
-COPY NumbeGuessingGame.war /usr/local/tomcat/webapps/ROOT.war
+COPY NumberGuessingGame.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose default port
 EXPOSE 8080
